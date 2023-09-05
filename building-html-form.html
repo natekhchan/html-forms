@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning the Forms</title>
+  </head>
+  <body>
+    <h1>Building HTML Forms!</h1>
+
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+        <legend>Add user</legend>
+    
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="first_name">
+        </div>
+    
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="last_name">
+        </div>
+    
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email_address">
+        </div>
+    
+        <div>
+          <label for="role">Status</label>
+          <select id="role" name="user_role_name">
+            <option value="admin">Student</option>
+            <option value="user">Instructor</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+        
+        <p>Choose your favorite programming language.</p> 
+
+        <div>
+        <input type="radio" id="html" name="programmingLanguage" value="HTML">
+        <label for="html">HTML</label><br>
+      
+        <input type="radio" id="css" name="programmingLanguage" value="CSS">
+        <label for="css">CSS</label><br>
+      
+        <input type="radio" id="javascript" name="programmingLanguage" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        </div>
+
+        <div>
+        <p>
+        <form>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="userComments" rows="4" cols="50"></textarea>
+        </form>
+        </div>        
+
+        <div>
+          <label for="expiration">Current Date</label>
+          <input type="date" id="currentdate" name="currentdate">
+        </div>
+    
+        <div>
+        <label>
+            <input type="checkbox" name="newsletterSignup" value="yes">
+            Sign up for newsletter
+        </label>
+        <label>
+            <input type="checkbox" name="agreeToTermsAndConditions" value="yes">
+            Agree to terms and conditions
+        </label>
+        </div>  
+        
+        <div>
+            <input type="submit" value="Submit">
+        </div>        
+
+        </fieldset>
+    </form>
+
+  </body>
+</html>
