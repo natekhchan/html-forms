@@ -76,3 +76,7 @@ Create two check boxes that allow the user to sign up for the newsletter and to 
 - A checkbox input element labeled "Sign up for newsletter"
 - A checkbox input element label "Agree to terms and conditions"
 - A submit button labeled "Submit"
+
+### Preview
+
+![Screenshot of HTML Forms](https://github.com/natekhchan/html-forms/blob/main/screenshot1.png)
